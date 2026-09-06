@@ -10,38 +10,106 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Metal+Mania&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Mono:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>PãesDourados</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <div class="min-h-screen bg-[url(assets/bg-padaria-bordo.jpg)] bg-center bg-cover">
+    <div class="min-h-screen bg-[url(assets/bg-padaria-bordo.jpg)] bg-center bg-fixed bg-cover">
         <header class="bg-white bg-opacity-50 p-4 sticky top-0">
             <nav>
                 <ul class="flex gap-8 w-full justify-center text-xl font-bold text-[#6B1A2C]">
-                    <li><a href="#" target="_blank">Home</a></li>
-                    <li><a href="#" target="_blank">Sobre</a></li>
-                    <li><a href="#" target="_blank">Pedir</a></li>
-                    <li><a href="#" target="_blank">Trabalhe conosco.</a></li>
+                    <li><a href="index.html" class="hover:text-[#E3C88A]">Home</a></li>
+                    <li><a href="/src/pages/sobre.html" class="hover:text-[#E3C88A]">Sobre</a></li>
+                    <li><a href="/src/pages/pedir.html" class="hover:text-[#E3C88A]">Pedir</a></li>
+                    <li><a href="/src/pages/trabalhe-conosco.html" class="hover:text-[#E3C88A]">Trabalhe conosco.</a>
+                    </li>
                 </ul>
             </nav>
         </header>
-        <main class="flex flex-col items-center justify-center h-screen text-white text-center gap-30">
-            <div class="flex flex-col items-center justify-center gap-6 text-[#F4E9DA]">
-                <h1 class="text-6xl font-bold font-sans text-[#E3C88A]">
+        <main class="flex flex-col items-center justify-center text-white text-center gap-10">
+            <div class="flex flex-col items-center justify-center gap-6 text-[#F4E9DA] pt-20">
+                <h1 class="text-5xl sm:text-6xl font-bold font-sans text-[#E3C88A]">
                     Pães Dourados.
                 </h1>
-                <h2>Lorem ipsum dolor sit amet consectetur, adipisicing?</h2>
-                <p>Role para baixo para ver mais </p>
-                <div >
+                <h2 class="text-sm sm:text-base pb-6">Na Pães Dourados, você encontra pães fresquinhos, doces deliciosos
+                    e tudo para deixar seu dia mais
+                    saboroso!
+                </h2>
+                <p class="text-sm sm:text-base pb-6">Role para baixo para ver mais </p>
+                <div>
                     <img src="assets/flecha.png" alt="seta para baixo" class="animate-bounce w-10 h-10">
                 </div>
             </div>
-            <div>
-                <img src="assets/front-view-delicious-brazilian-food-composition.jpg" alt="imagem de comida" class="w-64 h-64 rounded-full">
-            </div>
+            <div class="flex flex-col w-[90%] sm:w-[1000px] gap-23 mt-10 sm:mt-20">
+                <div class="bg-white bg-opacity-50 text-[#6B1A2C] p-4 sm:p-6 rounded-lg shadow-lg w-72 sm:w-96 self-start"
+                    data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                    <p class="text-sm sm:text-lg font-semibold p-2 sm:p-4">
+                        Coxinha crocante por fora, macia por dentro e recheada com frango bem temperado. Uma delícia
+                        irresistível!
+                    </p>
+
+                    <img src="assets/front-view-delicious-brazilian-food-composition.jpg" alt="imagem de comida"
+                        class="w-40 sm:w-52 h-40 sm:h-52 rounded-full m-auto">
+                </div>
+                <div
+                    class="bg-white bg-opacity-50 text-[#6B1A2C] p-4 sm:p-6 rounded-lg shadow-lg w-72 sm:w-96 self-end">
+
+                    <p class="text-sm sm:text-lg font-semibold p-2 sm:p-4">
+                        Pão de queijo quentinho, macio por dentro e com aquela casquinha dourada e irresistível
+                    </p>
+
+                    <img src="assets/pão-de-queijo.jpg" alt="imagem de comida"
+                        class="w-40 sm:w-52 h-40 sm:h-52 rounded-full m-auto">
+
+                </div>
+                <div class="bg-white bg-opacity-50 text-[#6B1A2C] p-4 sm:p-6 rounded-lg shadow-lg w-72 sm:w-96 self-start"
+                    data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                    <p class="text-sm sm:text-lg font-semibold p-2 sm:p-4">
+                        Pão macio recheado com fatias de salame, trazendo um sabor marcante e irresistível a cada
+                        mordida!
+                    </p>
+
+                    <img src="assets/composicao-salaminho-1024x683.jpg" alt="imagem de comida"
+                        class="w-40 sm:w-52 h-40 sm:h-52 rounded-full m-auto">
+                </div>
+                <div class="bg-white bg-opacity-50 text-[#6B1A2C] p-4 sm:p-6 rounded-lg shadow-lg w-72 sm:w-96 self-end"
+                    data-aos="fade-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                    <p class="text-sm sm:text-lg font-semibold p-2 sm:p-4">
+                        Bolo fofinho, saboroso e fresquinho, perfeito para acompanhar aquele cafezinho!
+                    </p>
+
+                    <img src="assets/pexels-patricio-ledeill-2922591-19036040.jpg" alt="imagem de comida"
+                        class="w-40 sm:w-52 h-40 sm:h-52 rounded-full m-auto">
+                </div>
+
         </main>
+        <footer class="bg-black text-white mt-20">
+            <div
+                class="max-w-6xl mx-auto px-6 py-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
+
+                <span class="font-semibold text-lg">Pães Dourados</span>
+
+                <nav class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/80">
+                    <a href="#" class="hover:text-white">Cardápio</a>
+                    <a href="#" class="hover:text-white">Lojas</a>
+                    <a href="#" class="hover:text-white">Sobre</a>
+                    <a href="#" class="hover:text-white">Contato</a>
+                </nav>
+
+                <span class="text-sm text-white/50">© 2026 Pães Dourados</span>
+
+            </div>
+        </footer>
     </div>
-</body
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
 
 </html>

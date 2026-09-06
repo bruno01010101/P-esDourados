@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Metal+Mania&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Mono:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>PãesDourados</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="min-h-screen bg-[url(../assets/bg-padaria-bordo.jpg)] bg-center bg-fixed bg-cover">
+        <header class="bg-white bg-opacity-50 p-4 sticky top-0">
+            <nav>
+                <ul class="flex gap-8 w-full justify-center text-xl font-bold text-[#6B1A2C]">
+                    <li><a href="../index.html" class="hover:text-[#E3C88A]">Home</a></li>
+                    <li><a href="/src/pages/sobre.html" class="hover:text-[#E3C88A]">Sobre</a></li>
+                    <li><a href="/src/pages/pedir.html" class="hover:text-[#E3C88A]">Pedir</a></li>
+                    <li><a href="/src/pages/trabalhe-conosco.html" class="hover:text-[#E3C88A]">Trabalhe
+                            conosco.</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="flex flex-col items-center justify-center text-white text-center gap-12 pt-24">
+            <h1 class="text-5xl sm:text-6xl font-bold font-sans text-[#E3C88A]">Sobre Nós</h1>
+            <p class="text-sm sm:text-base pb-6 max-w-2xl text-[#F4E9DA] w-[90%]">
+                Bem-vindo à Pães Dourados! Somos uma padaria artesanal que se dedica a criar os melhores pães e bolos
+                com ingredientes de qualidade e técnicas tradicionais.
+            </p>
+            <img src="../assets/café.jpg" alt=""
+                class="w-[90%] sm:w-[60%] rounded-lg shadow-lg p-6 bg-[#FFFFFFCC] mt-4 mb-6">
+            <div class="flex gap-6 w-[90%] sm:max-w-4xl text-[#F4E9DA] flex-col sm:flex-row ">
+                <p class="text-sm sm:text-base pb-6">
+                    Nossa missão é proporcionar momentos de prazer e satisfação aos nossos clientes, oferecendo produtos
+                    frescos e saborosos que fazem parte das suas rotinas diárias.
+                </p>
+                <p class="text-sm sm:text-base pb-6">
+                    Na Pães Dourados, cada pão é feito com carinho e atenção aos detalhes, garantindo que cada mordida
+                    seja uma experiência única. Venha nos visitar e descubra o verdadeiro sabor da tradição!
+                </p>
+
+            </div>
+            <hr>
+        </main>
+        <section class="py-16 sm:py-24 px-6 bg-[#EFDAC9]">
+
+            <div class="max-w-3xl mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+                data-aos-duration="1000" data-aos-easing="ease-in-out">
+
+                <h2 class="font-display text-[#5C1420] text-2xl sm:text-3xl font-semibold mb-10 sm:mb-14">
+                    Cinco marcos da nossa história
+                </h2>
+
+                <div class="divide-y divide-[#5C1420]/12">
+
+                    <!-- item -->
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 py-6">
+                        <div class="sm:w-[42%]">
+                            <span class="font-display text-[#5C1420] text-2xl font-semibold">1988</span>
+                            <p class="text-[#5C1420]/70 text-sm sm:text-base mt-1">Nascimento da receita de família</p>
+                        </div>
+                        <div class="flex items-center justify-center shrink-0">
+                            <svg class="w-6 h-6 sm:w-7 sm:h-7 text-[#5C1420]/40 rotate-90 sm:rotate-0"
+                                viewBox="0 0 24 24" fill="none">
+                                <path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="sm:w-[42%] sm:pl-2">
+                            <span
+                                class="inline-block bg-[#D9A24B] text-[#5C1420] text-xs font-medium px-2.5 py-1 rounded-full mb-1.5">1994</span>
+                            <p class="text-[#5C1420] text-sm sm:text-base font-medium">Abertura da segunda loja, no
+                                Batel</p>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 py-6">
+                        <div class="sm:w-[42%]">
+                            <span class="font-display text-[#5C1420] text-2xl font-semibold">1996</span>
+                            <p class="text-[#5C1420]/70 text-sm sm:text-base mt-1">Primeiro forno a lenha próprio</p>
+                        </div>
+                        <div class="flex items-center justify-center shrink-0">
+                            <svg class="w-6 h-6 sm:w-7 sm:h-7 text-[#5C1420]/40 rotate-90 sm:rotate-0"
+                                viewBox="0 0 24 24" fill="none">
+                                <path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="sm:w-[42%] sm:pl-2">
+                            <span
+                                class="inline-block bg-[#D9A24B] text-[#5C1420] text-xs font-medium px-2.5 py-1 rounded-full mb-1.5">2003</span>
+                            <p class="text-[#5C1420] text-sm sm:text-base font-medium">Criação do pão de fermentação
+                                natural</p>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 py-6">
+                        <div class="sm:w-[42%]">
+                            <span class="font-display text-[#5C1420] text-2xl font-semibold">2005</span>
+                            <p class="text-[#5C1420]/70 text-sm sm:text-base mt-1">Padaria vira ponto de encontro do
+                                bairro</p>
+                        </div>
+                        <div class="flex items-center justify-center shrink-0">
+                            <svg class="w-6 h-6 sm:w-7 sm:h-7 text-[#5C1420]/40 rotate-90 sm:rotate-0"
+                                viewBox="0 0 24 24" fill="none">
+                                <path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="sm:w-[42%] sm:pl-2">
+                            <span
+                                class="inline-block bg-[#D9A24B] text-[#5C1420] text-xs font-medium px-2.5 py-1 rounded-full mb-1.5">2011</span>
+                            <p class="text-[#5C1420] text-sm sm:text-base font-medium">Inauguração da confeitaria
+                                própria</p>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 py-6">
+                        <div class="sm:w-[42%]">
+                            <span class="font-display text-[#5C1420] text-2xl font-semibold">2013</span>
+                            <p class="text-[#5C1420]/70 text-sm sm:text-base mt-1">Primeira parceria com produtores
+                                locais</p>
+                        </div>
+                        <div class="flex items-center justify-center shrink-0">
+                            <svg class="w-6 h-6 sm:w-7 sm:h-7 text-[#5C1420]/40 rotate-90 sm:rotate-0"
+                                viewBox="0 0 24 24" fill="none">
+                                <path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="sm:w-[42%] sm:pl-2">
+                            <span
+                                class="inline-block bg-[#D9A24B] text-[#5C1420] text-xs font-medium px-2.5 py-1 rounded-full mb-1.5">2018</span>
+                            <p class="text-[#5C1420] text-sm sm:text-base font-medium">Selo de padaria 100% artesanal
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 py-6">
+                        <div class="sm:w-[42%]">
+                            <span class="font-display text-[#5C1420] text-2xl font-semibold">2020</span>
+                            <p class="text-[#5C1420]/70 text-sm sm:text-base mt-1">Reforma completa da loja principal
+                            </p>
+                        </div>
+                        <div class="flex items-center justify-center shrink-0">
+                            <svg class="w-6 h-6 sm:w-7 sm:h-7 text-[#5C1420]/40 rotate-90 sm:rotate-0"
+                                viewBox="0 0 24 24" fill="none">
+                                <path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="sm:w-[42%] sm:pl-2">
+                            <span
+                                class="inline-block bg-[#D9A24B] text-[#5C1420] text-xs font-medium px-2.5 py-1 rounded-full mb-1.5">2024</span>
+                            <p class="text-[#5C1420] text-sm sm:text-base font-medium">Nova identidade visual Pães
+                                Dourados</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer class="bg-black text-white">
+            <div
+                class="max-w-6xl mx-auto px-6 py-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
+
+                <span class="font-semibold text-lg">Pães Dourados</span>
+
+                <nav class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/80">
+                    <a href="#" class="hover:text-white">Cardápio</a>
+                    <a href="#" class="hover:text-white">Lojas</a>
+                    <a href="#" class="hover:text-white">Sobre</a>
+                    <a href="#" class="hover:text-white">Contato</a>
+                </nav>
+
+                <span class="text-sm text-white/50">© 2026 Pães Dourados</span>
+
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
