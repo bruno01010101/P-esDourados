@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Metal+Mania&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Mono:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>PãesDourados</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="min-h-screen bg-[url(../assets/bg-padaria-bordo.jpg)] bg-center bg-fixed bg-cover">
+        <header class="bg-white bg-opacity-50 p-4 sticky top-0">
+            <nav>
+                <ul class="flex gap-8 w-full justify-center text-xl font-bold text-[#6B1A2C]">
+                    <li><a href="index.html" class="hover:text-[#E3C88A]">Home</a></li>
+                    <li><a href="/src/pages/sobre.html" class="hover:text-[#E3C88A]">Sobre</a></li>
+                    <li><a href="/src/pages/pedir.html" class="hover:text-[#E3C88A]">Pedir</a></li>
+                    <li><a href="/src/pages/trabalhe-conosco.html" class="hover:text-[#E3C88A]">Trabalhe conosco.</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="py-16 sm:py-24 px-6">
+            <div class="max-w-6xl mx-auto">
+
+                <div class="mb-10 sm:mb-14">
+                    <p class="text-[#D9A24B] text-sm font-medium mb-2">Cardápio</p>
+                    <h2 class="font-display text-[#E3C88A] text-3xl sm:text-4xl font-semibold">O que sai do forno hoje
+                    </h2>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                    <!-- 1 · Pão Francês -->
+                    <div
+                        class="rounded-2xl overflow-hidden border border-[#5C1420]/10 bg-[#FBF6EF] hover:shadow-lg hover:-translate-y-0.5 transition">
+                        <div
+                            class="aspect-[4/3] bg-gradient-to-br from-[#F4E9DA] to-[#E7CBA0] flex items-center justify-center">
+                            <svg viewBox="0 0 48 48" class="w-14 h-14 text-[#5C1420]/70" fill="none"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                                <rect x="8" y="18" width="32" height="14" rx="7" />
+                                <path d="M16 22l3 6M24 21l3 8M32 22l3 6" />
+                            </svg>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex items-start justify-between gap-3 mb-1.5">
+                                <h3 class="font-display text-[#5C1420] text-lg font-semibold">Pão Francês Crocante</h3>
+                                <span
+                                    class="shrink-0 text-xs font-medium text-[#5C1420] bg-[#D9A24B]/25 px-2.5 py-1 rounded-full">R$
+                                    12/kg</span>
+                            </div>
+                            <p class="text-[#5C1420]/65 text-sm leading-relaxed">Crosta fina e crocante, miolo leve.
+                                Assado três vezes ao dia.</p>
+                        </div>
+                    </div>
+
+                    <!-- 2 · Croissant -->
+                    <div
+                        class="rounded-2xl overflow-hidden border border-[#5C1420]/10 bg-[#FBF6EF] hover:shadow-lg hover:-translate-y-0.5 transition">
+                        <div
+                            class="aspect-[4/3] bg-gradient-to-br from-[#F4E9DA] to-[#E7CBA0] flex items-center justify-center">
+                            <svg viewBox="0 0 48 48" class="w-14 h-14 text-[#5C1420]/70" fill="none"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                                <path
+                                    d="M12 32c-2-8 2-17 11-19 7-1.5 13 2 15 8-4-3-9-3-13 0-5 3-7 8-6 13-3-0.5-5.5-1-7-2z" />
+                            </svg>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex items-start justify-between gap-3 mb-1.5">
+                                <h3 class="font-display text-[#5C1420] text-lg font-semibold">Croissant Amanteigado</h3>
+                                <span
+                                    class="shrink-0 text-xs font-medium text-[#5C1420] bg-[#D9A24B]/25 px-2.5 py-1 rounded-full">R$
+                                    9</span>
+                            </div>
+                            <p class="text-[#5C1420]/65 text-sm leading-relaxed">Massa folhada em camadas, manteiga de
+                                verdade, dourado por fora.</p>
+                        </div>
+                    </div>
+
+                    <!-- 3 · Fermentação natural -->
+                    <div
+                        class="rounded-2xl overflow-hidden border border-[#5C1420]/10 bg-[#FBF6EF] hover:shadow-lg hover:-translate-y-0.5 transition">
+                        <div
+                            class="aspect-[4/3] bg-gradient-to-br from-[#F4E9DA] to-[#E7CBA0] flex items-center justify-center">
+                            <svg viewBox="0 0 48 48" class="w-14 h-14 text-[#5C1420]/70" fill="none"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                                <circle cx="24" cy="25" r="13" />
+                                <path d="M24 15v20M17 18l14 14M31 18l-14 14" />
+                            </svg>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex items-start justify-between gap-3 mb-1.5">
+                                <h3 class="font-display text-[#5C1420] text-lg font-semibold">Fermentação Natural</h3>
+                                <span
+                                    class="shrink-0 text-xs font-medium text-[#5C1420] bg-[#D9A24B]/25 px-2.5 py-1 rounded-full">R$
+                                    22</span>
+                            </div>
+                            <p class="text-[#5C1420]/65 text-sm leading-relaxed">Fermentação de 24h, casca grossa e
+                                sabor levemente ácido.</p>
+                        </div>
+                    </div>
+
+                    <!-- 4 · Bolo de cenoura -->
+                    <div
+                        class="rounded-2xl overflow-hidden border border-[#5C1420]/10 bg-[#FBF6EF] hover:shadow-lg hover:-translate-y-0.5 transition">
+                        <div
+                            class="aspect-[4/3] bg-gradient-to-br from-[#F4E9DA] to-[#E7CBA0] flex items-center justify-center">
+                            <svg viewBox="0 0 48 48" class="w-14 h-14 text-[#5C1420]/70" fill="none"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M10 34L24 12l14 22z" />
+                                <path d="M14 34q10-6 20 0" />
+                            </svg>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex items-start justify-between gap-3 mb-1.5">
+                                <h3 class="font-display text-[#5C1420] text-lg font-semibold">Bolo de Cenoura</h3>
+                                <span
+                                    class="shrink-0 text-xs font-medium text-[#5C1420] bg-[#D9A24B]/25 px-2.5 py-1 rounded-full">R$
+                                    14</span>
+                            </div>
+                            <p class="text-[#5C1420]/65 text-sm leading-relaxed">Massa fofinha coberta com ganache de
+                                chocolate quente na hora.</p>
+                        </div>
+                    </div>
+
+                    <!-- 5 · Torta de limão -->
+                    <div
+                        class="rounded-2xl overflow-hidden border border-[#5C1420]/10 bg-[#FBF6EF] hover:shadow-lg hover:-translate-y-0.5 transition">
+                        <div
+                            class="aspect-[4/3] bg-gradient-to-br from-[#F4E9DA] to-[#E7CBA0] flex items-center justify-center">
+                            <svg viewBox="0 0 48 48" class="w-14 h-14 text-[#5C1420]/70" fill="none"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                                <circle cx="24" cy="24" r="13" />
+                                <path d="M24 24L24 11M24 24l11 6M24 24l-9 8" />
+                            </svg>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex items-start justify-between gap-3 mb-1.5">
+                                <h3 class="font-display text-[#5C1420] text-lg font-semibold">Torta de Limão Siciliano
+                                </h3>
+                                <span
+                                    class="shrink-0 text-xs font-medium text-[#5C1420] bg-[#D9A24B]/25 px-2.5 py-1 rounded-full">R$
+                                    16</span>
+                            </div>
+                            <p class="text-[#5C1420]/65 text-sm leading-relaxed">Creme azedinho sobre base crocante de
+                                biscoito amanteigado.</p>
+                        </div>
+                    </div>
+
+                    <!-- 6 · Brigadeiro -->
+                    <div
+                        class="rounded-2xl overflow-hidden border border-[#5C1420]/10 bg-[#FBF6EF] hover:shadow-lg hover:-translate-y-0.5 transition">
+                        <div
+                            class="aspect-[4/3] bg-gradient-to-br from-[#F4E9DA] to-[#E7CBA0] flex items-center justify-center">
+                            <svg viewBox="0 0 48 48" class="w-14 h-14 text-[#5C1420]/70" fill="none"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                                <circle cx="24" cy="24" r="9" />
+                                <circle cx="24" cy="12" r="1.3" fill="currentColor" stroke="none" />
+                                <circle cx="34" cy="18" r="1.3" fill="currentColor" stroke="none" />
+                                <circle cx="34" cy="30" r="1.3" fill="currentColor" stroke="none" />
+                                <circle cx="24" cy="36" r="1.3" fill="currentColor" stroke="none" />
+                                <circle cx="14" cy="30" r="1.3" fill="currentColor" stroke="none" />
+                                <circle cx="14" cy="18" r="1.3" fill="currentColor" stroke="none" />
+                            </svg>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex items-start justify-between gap-3 mb-1.5">
+                                <h3 class="font-display text-[#5C1420] text-lg font-semibold">Brigadeiro Gourmet</h3>
+                                <span
+                                    class="shrink-0 text-xs font-medium text-[#5C1420] bg-[#D9A24B]/25 px-2.5 py-1 rounded-full">R$
+                                    5</span>
+                            </div>
+                            <p class="text-[#5C1420]/65 text-sm leading-relaxed">Chocolate belga enrolado à mão,
+                                granulado artesanal.</p>
+                        </div>
+                    </div>
+
+                    <!-- 7 · Café -->
+                    <div
+                        class="rounded-2xl overflow-hidden border border-[#5C1420]/10 bg-[#FBF6EF] hover:shadow-lg hover:-translate-y-0.5 transition">
+                        <div
+                            class="aspect-[4/3] bg-gradient-to-br from-[#F4E9DA] to-[#E7CBA0] flex items-center justify-center">
+                            <svg viewBox="0 0 48 48" class="w-14 h-14 text-[#5C1420]/70" fill="none"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 20h18v9a9 9 0 01-9 9v0a9 9 0 01-9-9z" />
+                                <path d="M30 22h3a4 4 0 010 8h-3" />
+                                <path d="M17 10q2 3 0 5M23 10q2 3 0 5" />
+                            </svg>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex items-start justify-between gap-3 mb-1.5">
+                                <h3 class="font-display text-[#5C1420] text-lg font-semibold">Café Especial Coado</h3>
+                                <span
+                                    class="shrink-0 text-xs font-medium text-[#5C1420] bg-[#D9A24B]/25 px-2.5 py-1 rounded-full">R$
+                                    8</span>
+                            </div>
+                            <p class="text-[#5C1420]/65 text-sm leading-relaxed">Grãos torrados semanalmente, coado na
+                                hora do pedido.</p>
+                        </div>
+                    </div>
+
+                    <!-- 8 · Sanduíche -->
+                    <div
+                        class="rounded-2xl overflow-hidden border border-[#5C1420]/10 bg-[#FBF6EF] hover:shadow-lg hover:-translate-y-0.5 transition">
+                        <div
+                            class="aspect-[4/3] bg-gradient-to-br from-[#F4E9DA] to-[#E7CBA0] flex items-center justify-center">
+                            <svg viewBox="0 0 48 48" class="w-14 h-14 text-[#5C1420]/70" fill="none"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M8 26h32l-4 8H12z" />
+                                <path d="M10 26q14-14 28 0" />
+                                <path d="M12 26v-2M36 26v-2" />
+                            </svg>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex items-start justify-between gap-3 mb-1.5">
+                                <h3 class="font-display text-[#5C1420] text-lg font-semibold">Sanduíche Natural</h3>
+                                <span
+                                    class="shrink-0 text-xs font-medium text-[#5C1420] bg-[#D9A24B]/25 px-2.5 py-1 rounded-full">R$
+                                    18</span>
+                            </div>
+                            <p class="text-[#5C1420]/65 text-sm leading-relaxed">Pão integral da casa, frango desfiado e
+                                molho leve.</p>
+                        </div>
+                    </div>
+
+                    <!-- 9 · Biscoito -->
+                    <div
+                        class="rounded-2xl overflow-hidden border border-[#5C1420]/10 bg-[#FBF6EF] hover:shadow-lg hover:-translate-y-0.5 transition">
+                        <div
+                            class="aspect-[4/3] bg-gradient-to-br from-[#F4E9DA] to-[#E7CBA0] flex items-center justify-center">
+                            <svg viewBox="0 0 48 48" class="w-14 h-14 text-[#5C1420]/70" fill="none"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                                <circle cx="24" cy="24" r="13" />
+                                <circle cx="19" cy="19" r="1.3" fill="currentColor" stroke="none" />
+                                <circle cx="29" cy="20" r="1.3" fill="currentColor" stroke="none" />
+                                <circle cx="20" cy="28" r="1.3" fill="currentColor" stroke="none" />
+                                <circle cx="28" cy="29" r="1.3" fill="currentColor" stroke="none" />
+                            </svg>
+                        </div>
+                        <div class="p-5">
+                            <div class="flex items-start justify-between gap-3 mb-1.5">
+                                <h3 class="font-display text-[#5C1420] text-lg font-semibold">Biscoito Amanteigado</h3>
+                                <span
+                                    class="shrink-0 text-xs font-medium text-[#5C1420] bg-[#D9A24B]/25 px-2.5 py-1 rounded-full">R$
+                                    4</span>
+                            </div>
+                            <p class="text-[#5C1420]/65 text-sm leading-relaxed">Receita da vovó, crocante por fora e
+                                macio por dentro.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer class="bg-black text-white mt-20">
+            <div
+                class="max-w-6xl mx-auto px-6 py-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
+
+                <span class="font-semibold text-lg">Pães Dourados</span>
+
+                <nav class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-white/80">
+                    <a href="#" class="hover:text-white">Cardápio</a>
+                    <a href="#" class="hover:text-white">Lojas</a>
+                    <a href="#" class="hover:text-white">Sobre</a>
+                    <a href="#" class="hover:text-white">Contato</a>
+                </nav>
+
+                <span class="text-sm text-white/50">© 2026 Pães Dourados</span>
+
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
